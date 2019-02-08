@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>表单示例</title>
+</head>
+<body>
+	<div>
+		<form action="">
+			<div>
+				<label for="username">姓名: </label>
+				<input type="text" id="username" name="username" placeholder="用户名" />
+			</div>
+			<div>
+				<label for="password">密码: </label>
+				<input type="password" id="password" name="password">
+			</div>
+			<div>
+				<label>性别： </label>
+				<input type="radio" name="gender" value="男" checked>男
+				<input type="radio" name="gender" value="女">女
+			</div>
+			<div>
+				<label>取向： </label>
+				<input type="radio" name="sexualorientation" value="男" checked>男
+				<input type="radio" name="sexualorientation" value="女" checked>女
+			</div>
+			<div>
+				<label>爱好： </label>
+				<input type="checkbox" name="hobby" value="dota">dota
+				<input type="checkbox" name="hobby" value="travel" checked>旅游
+				<input type="checkbox" name="hobby" value="pet" checked>宠物
+			</div>
+			<div>
+				<label for="comment">评论： </label>
+				<textarea name="comment" id="comment" cols="80" rows="20">ddd</textarea>
+			</div>
+			<div>
+				<label for="select">我的car： </label>
+				<select name="select" id="select">
+					<option value="jeep">吉普</option>
+        			<option value="saab" selected>萨博</option>
+				</select>
+				<input type="submit" value="提交">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
