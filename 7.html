@@ -15,13 +15,23 @@
 		}
 
 		.myfont {
-			font-family: xxx;
+			font-family: "xxx";
 			display: inline-block;
+		}
+
+		.icon-t1:before{
+			font-family: "xxx";content: "\e649";
+		}
+
+		.icon-t2:before{
+			font-family: "xxx";content: "\e648";
 		}
 	</style>
 </head>
 <body>
 	<span class="myfont">&#xe648;</span>
-	<span class="myfont">&#xe649;</span>
+	<span class="myfont">&#xe649;html中使用unicode码</span>
+	<p class="icon-t1">css中使用Unicode码</p>
+	<p class="icon-t2"></p>
 </body>
 </html>
