@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			color: #fff;
+		}
+		
+		.ct-main {
+			width: 600px;
+			margin: 0 auto;
+		}
+
+		.ct-message {
+			margin-top: 30px;
+			border-radius: 3px;
+			position: relative;
+		}
+
+		.ct-message .message {
+			padding: 15px 0 25px 15px;
+		}
+
+		.ct-message .close-icon {
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 3px;
+			right: 15px;
+			cursor: pointer;
+		}
+
+		.message.subject {
+			font-weight: bold;
+		}
+
+		.first {
+			background-color: #4CAF50; 
+		}
+
+		.second {
+			background-color: #2196F3; 
+		}
+
+		.third {
+			background-color: #f44336;
+		}
+
+		.fourth{
+			background-color: #ff9800;
+		}
+	</style>
+</head>
+<body>
+	<div class="ct-main">
+		<div class="ct-message first">
+			<div class="message subject">恭喜您</div>
+			<div class="close-icon">×</div>
+			<div class="message detail">获得本周学霸，继续加油吧</div>
+		</div>
+		<div class="ct-message second">
+			<div class="message subject">通知</div>
+			<div class="close-icon">×</div>
+			<div class="message detail">晚上上课，不要忘了</div>
+		</div>
+		<div class="ct-message third">
+			<div class="message subject">天啊</div>
+			<div class="close-icon">×</div>
+			<div class="message detail">竟然几天没做任务</div>
+		</div>
+		<div class="ct-message fourth">
+			<div class="message subject">警告</div>
+			<div class="close-icon">×</div>
+			<div class="message detail">学如逆水行舟，不进则退</div>
+		</div>
+	</div>
+</body>
+</html>
